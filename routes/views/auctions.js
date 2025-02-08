@@ -93,7 +93,7 @@ exports = module.exports = function (req, res) {
             // res.render("auctions",{settings: settings});
             res.render("errors/404"); //temporary, not to give people an impression they can search whatever they want
         });
-    }   
+    }
 
     function dataValidation(settings){
         //assume no error first
